@@ -1,0 +1,81 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+}
+
+nav {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.header-content {
+    text-align: center;
+    padding: 100px 0;
+}
+
+.header-content h1 {
+    font-size: 36px;
+    color: #333;
+}
+
+.header-content p {
+    font-size: 18px;
+    color: #555;
+}
+
+.courses, .tutorials {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.courses h2, .tutorials h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.course, .tutorial {
+    background-color: #f9f9f9;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.course h3, .tutorial h3 {
+    font-size: 20px;
+}
+
+.course p, .tutorial p {
+    color: #444;
+}
+
+.course a, .tutorial a {
+    background-color: #007BFF;
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    display: inline-block;
+}
